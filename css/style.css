@@ -14,10 +14,12 @@ body{
 }
 
 a{
-    color: rgb(242, 212, 146);
-    text-decoration: none;
+    color: rgb(242, 149, 89);
 }
 h1,h2,h3{
     color:rgb(184, 176, 141) ;
 }
+strong{
+    font-style: italic;
+    color: rgb(242, 212, 146);
 }
