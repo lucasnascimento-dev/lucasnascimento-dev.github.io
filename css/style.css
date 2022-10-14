@@ -7,3 +7,17 @@
     font-size: 1.5em;
     text-align: justify;
 }
+
+body{
+    background-color: rgb(32, 44, 57);
+    color: rgb(242, 149, 89);
+}
+
+a{
+    color: rgb(242, 212, 146);
+    text-decoration: none;
+}
+h1,h2,h3{
+    color:rgb(184, 176, 141) ;
+}
+}
