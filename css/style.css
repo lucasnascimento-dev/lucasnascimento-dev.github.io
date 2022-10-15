@@ -1,12 +1,29 @@
 #menu{
-    list-style: none;
-    /* background-color: rgb(40, 56, 69); */
-    background-color: red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 95%;
+    margin: auto;
+    border-radius: 5px;
 }
-#menu li{
+
+#listaMenu{
+    list-style: none;
+}
+#listaMenu li{
     padding-right: 25px;
     float: right;
-    background-color: blueviolet;
+}
+
+ul{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+#menu{
+    background-color:rgb(40, 56, 69);
 }
 
 #nome{
