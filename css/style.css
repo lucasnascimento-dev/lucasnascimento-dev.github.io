@@ -21,15 +21,18 @@
     margin: auto;
     background-image:url(./images/coverLucas.jpg);
     background-repeat: no-repeat;
-    height: 700px;
+    height: 600px;
     background-attachment: fixed;
     background-size: cover;
 }
 
-#contentHeaderInside{
-    height: 700px;
+#containerHeaderInside{
+    padding: 130px 50px 0px 50px;
+}
+
+#containerCor{
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 130px 50px;
+    height: 600px;
 }
 
 ul{
@@ -55,8 +58,12 @@ a{
 
 #descricao{
     font-family: monospace;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: justify;
+}
+
+.highlight{
+    color: rgb(184, 176, 141);
 }
 
 .habilidades{
