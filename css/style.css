@@ -1,9 +1,10 @@
 #menu{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    max-width: 95%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 100%;
     margin: auto;
     border-radius: 5px;
+    background-color:rgb(40, 56, 69);
 }
 
 #listaMenu{
@@ -12,6 +13,23 @@
 #listaMenu li{
     padding-right: 25px;
     float: right;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+#containerHeader{
+    margin: auto;
+    background-image:url(./images/coverLucas.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contentHeaderInside{
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 130px 50px;
 }
 
 ul{
@@ -22,12 +40,17 @@ a{
     text-decoration: none;
 }
 
-#menu{
-    background-color:rgb(40, 56, 69);
+#nome{
+    font-family:monospace;
+    font-size: 5em;
+    color: rgb(184, 176, 141);
 }
 
-#nome{
-    font-family:sans-serif;
+#sobrenome{
+    font-family:monospace;
+    font-size: 5em;
+    padding-left: 20px;
+    color: rgb(242, 149, 89);
 }
 
 #descricao{
@@ -43,15 +66,14 @@ a{
 body{
     background-color: rgb(32, 44, 57);
     color: rgb(242, 149, 89);
+    padding: 0;
+    margin: 0;
 }
 
 a{
     color: rgb(242, 149, 89);
 }
-h1,h2,h3{
-    color:rgb(184, 176, 141) ;
-}
-strong{
-    font-style: italic;
-    color: rgb(242, 212, 146);
+
+h1{
+    margin: 0;
 }
